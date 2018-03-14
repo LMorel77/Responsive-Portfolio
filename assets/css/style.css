@@ -221,22 +221,25 @@ input[type=submit] {
     margin: 0 auto;
     text-align: center;
     width: 100%;
-  }  
+  }
   #logo {
     width: 100%;
+  }
+  #main-container {
+    margin: 0 auto;
+    max-width: 93%;
+    padding: 0px;
   }
   #masthead {
     margin: 0 0 20px;
     position: static;
   }
-  .main-section {
-    margin: 0, 0, 20px, 0 auto;
-    max-width: 980px;
-    /* width: 90%; */
-  }
   .container {
     max-width: 980px;
-    width: 90%;
+    width: 100%;
+  }
+  .main-section {
+     margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -245,22 +248,25 @@ input[type=submit] {
     margin: 0 auto;
     text-align: center;
     width: 100%;
-  }  
+  }
   #logo {
     width: 100%;
+  }
+  #main-container {
+    margin: 0 auto;
+    max-width: 93%;
+    padding: 0px;
   }
   #masthead {
     margin: 0 0 20px;
     position: static;
   }
-  .main-section {
-    margin: 0, 0, 20px, 0 auto;
-    max-width: 768px;
-    /* width: 90%; */
-  }
   .container {
     max-width: 768px;
-    width: 90%;
+    width: 100%;
+  }
+  .main-section {
+     margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 640px) {
@@ -269,27 +275,24 @@ input[type=submit] {
     margin: 0 auto;
     text-align: center;
     width: 100%;
-  }  
+  }
   #logo {
     width: 100%;
   }
   #main-container {
+    margin: 0 auto;
+    max-width: 93%;
     padding: 0px;
   }
   #masthead {
     margin: 0 0 20px;
     position: static;
   }
-  .main-section {
-    margin: 0, 0, 10px, 0 auto;
-    max-width: 640px;
-    /* width: 90%; */
-  }
   .container {
     max-width: 640px;
-    /* width: 90%; */
-  }
-  .container #masthead #logo a {
     width: 100%;
+  }
+  .main-section {
+     margin-bottom: 20px;
   }
 }
